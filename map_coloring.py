@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 26 06:02:41 2024
 
-@author: Saadi
-"""
 
 def A_star_map_coloring(map): 
     open_set = PriorityQueue()  # Priority queue of states, prioritized by heuristic + cost 
